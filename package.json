@@ -1,0 +1,29 @@
+{
+  "name": "mensagem-2.0",
+  "version": "1.0.0",
+  "description": "Sistema acadêmico para trazer uma mensagem aleatória",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index"
+  },
+  "keywords": [
+    "Mensagem",
+    "Escola",
+    "Aleatória"
+  ],
+  "author": "Alexandre Siqueira dos Reis, Amanda Pereira da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
