@@ -9,10 +9,10 @@ const mySql = require('mysql2')
 })*/
 
 exports.POOL = POOL = mySql.createPool({
-    "user": "root",
-    "password": "admin",
-    "host": "localhost",
+    "user": "bdefc63441ee7a",
+    "password": "88841029",
+    "host": "us-cdbr-east-06.cleardb.net",
     "port": "3306",
-    "database": "dbMensagem"
+    "database": "heroku_b001304af4d5c4a"
 })
 
